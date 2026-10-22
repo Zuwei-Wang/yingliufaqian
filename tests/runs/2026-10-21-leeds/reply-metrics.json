@@ -1,0 +1,87 @@
+{
+  "count_definition": "Non-whitespace visible characters, including English, numbers and punctuation; excluding link URLs and app file-citation widgets",
+  "replies": [
+    {
+      "round": 1,
+      "run": "initial",
+      "visible_characters": 59
+    },
+    {
+      "round": 2,
+      "run": "initial",
+      "visible_characters": 222
+    },
+    {
+      "round": 2,
+      "run": "rerun-after-reference-update",
+      "visible_characters": 145
+    },
+    {
+      "round": 3,
+      "run": "initial",
+      "visible_characters": 192
+    },
+    {
+      "round": 4,
+      "run": "initial",
+      "visible_characters": 82
+    },
+    {
+      "round": 5,
+      "run": "initial",
+      "visible_characters": 94
+    },
+    {
+      "round": 6,
+      "run": "initial",
+      "visible_characters": 115
+    },
+    {
+      "round": 7,
+      "run": "initial",
+      "visible_characters": 127
+    },
+    {
+      "round": 8,
+      "run": "initial",
+      "visible_characters": 155
+    },
+    {
+      "round": 9,
+      "run": "initial",
+      "visible_characters": 98
+    },
+    {
+      "round": 10,
+      "run": "initial",
+      "visible_characters": 117
+    },
+    {
+      "round": 11,
+      "run": "initial",
+      "visible_characters": 124
+    },
+    {
+      "round": 3,
+      "run": "rerun-concision",
+      "visible_characters": 131
+    }
+  ],
+  "latest_per_round": {
+    "1": 59,
+    "2": 145,
+    "3": 131,
+    "4": 82,
+    "5": 94,
+    "6": 115,
+    "7": 127,
+    "8": 155,
+    "9": 98,
+    "10": 117,
+    "11": 124
+  },
+  "rounds": 11,
+  "latest_median": 117,
+  "latest_mean": 113.4,
+  "latest_max": 155
+}

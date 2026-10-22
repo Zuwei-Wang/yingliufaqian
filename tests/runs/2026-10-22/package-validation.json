@@ -1,0 +1,9 @@
+{
+  "version": "0.1.4",
+  "skill_structure": "quick_validate passed",
+  "relative_links": "passed",
+  "files": 10,
+  "members_match_source_bytes": true,
+  "zip_sha256": "ac61af6b8f3d5644cd201bb8ec24f7804f795694eec9615c8ad5d8f1f183d492",
+  "scope": "instruction/source/package checks; full dialogue not rerun"
+}

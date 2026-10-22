@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Europe/London",
+  "mode": "two independent one-step regressions; isolated from main24turncase",
+  "read_current_instructions": [
+    "/Users/example/Documents/projects/yingliufaqian/skills/yingliufaqian/SKILL.md",
+    "/Users/example/Documents/projects/yingliufaqian/skills/yingliufaqian/references/workflow.md",
+    "/Users/example/Documents/projects/yingliufaqian/skills/yingliufaqian/references/university-documents.md"
+  ],
+  "runs": [
+    {
+      "id": "existing_schengen_gate_before_self_application",
+      "context": {
+        "uk_city": "Leeds",
+        "adult": true,
+        "passport": "Chinese ordinary",
+        "residence": "Student",
+        "residence_expires": "2027-10-31",
+        "trip": "Paris2026-12-12to16",
+        "travellers": 1,
+        "travel_budget_gbp": 800,
+        "visa_costs": "separate",
+        "school_bank_materials": "prepared in this isolated premise",
+        "France_Visas_form": "not formally completed",
+        "existing_schengen_visa": "never asked, no evidence",
+        "current_menu_B": "我自己填好，再提供回执和个人清单"
+      },
+      "user": "B",
+      "assistant": "填表前先核对是否需要新签证：你是否已有申根签证？\n\nA. 没有，或已过期\nB. 有未过期或尚未生效的签证，请帮我核对\nC. 不确定\nD. 其他，直接说",
+      "actual_actions": [
+        "Read currentSKILL/workflow/university-documents",
+        "Mapped B only to self-filling preference, not completion or visa absence",
+        "Applied workflow new-visa gate before giving official newapplication/submission/payment instructions",
+        "Asked one currentA-D existing-visa question; no automatic subsequent answer or action",
+        "Did not import mainline later visa validity/MULT/C, form receipt, name, outcome or files"
+      ],
+      "fields_after": {
+        "self_filling_preference": true,
+        "existing_visa_status": "unknown, question pending",
+        "new_application_needed": "not determined",
+        "form_submission": "not performed"
+      }
+    },
+    {
+      "id": "leeds_certificate_known_prerequisites_and_feedback_menu",
+      "context": {
+        "university": "University of Leeds",
+        "student_type": "taught",
+        "this_year_registration": "complete",
+        "current_address": "verified",
+        "certificate": "missing and not requested",
+        "preference": "letter-only replies",
+        "previous_menu_A": "还没有，也没申请学校证明"
+      },
+      "user": "A",
+      "assistant": "打开[学校证明申请表](https://forms.office.com/r/hiJGtBreNd)，申请 Registration Status Certificate。[学校说明](https://students.leeds.ac.uk/documentation-regulations/doc/registration-status-certificate)目标10个工作日内邮件出具，忙时可能更久；拿到PDF后交我核对。表单内部字段尚未核实。\n\nA. 已申请，等邮件\nB. 遇到问题\nC. 先做其他材料\nD. 其他，直接说",
+      "actual_actions": [
+        "Read currentSKILL/workflow/university-documents",
+        "Mapped A only to prior certificate missing/unrequested state",
+        "Reused same-day official full schoolpage and exact outgoing formURL from mainline turn10, not later personal facts",
+        "Provided correct Registration Status Certificate type,10workingdaytarget/emaildelivery,PDF return action and fresh currentA-D progress menu",
+        "Did not re-ask known completed registration/address; did not assume request submitted,PDF received or internal form fields verified",
+        "Did not browse again, log in, submit, book, buy, or continue to a future menu choice"
+      ],
+      "reused_public_source_evidence": {
+        "official_page": "https://students.leeds.ac.uk/documentation-regulations/doc/registration-status-certificate",
+        "form": "https://forms.office.com/r/hiJGtBreNd",
+        "verified_on": "2026-10-22",
+        "observed": "official full page states taught/pre-submission students,register/currentaddress prerequisites,10workingdaytarget emailed PDF,maylonger,avoidduplicates; exact outbound formURL followed",
+        "form_boundary": "web fetch redirect error; Chrome public form onlyLoading; no internal fields/login/submissionverified"
+      },
+      "fields_after": {
+        "certificate_status": "missing, not requested; instructions provided only",
+        "registration": "complete per isolated premise",
+        "address": "verified per isolated premise",
+        "next_menu_A": "已申请，等邮件",
+        "actual_request_submission": false
+      }
+    }
+  ],
+  "isolation_verification": {
+    "main_conversation_unchanged": true,
+    "main_tool_observations_unchanged": true,
+    "all_final_case_files_unchanged": true,
+    "hypothetical_result_unchanged": true,
+    "guarded_file_count": 68,
+    "file_sha256_before_after_equal": true,
+    "no_new_applicant_main_turn": true,
+    "no_external_mutation": true
+  }
+}

@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+dist/*
+!dist/yingliufaqian-0.1.6.zip
+private/
+cases/
+tmp/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pdf
+*.docx

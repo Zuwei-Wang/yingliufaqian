@@ -1,0 +1,22 @@
+{
+  "version": "0.1.1",
+  "skill_file_count": 8,
+  "relative_links": "passed",
+  "ui_metadata": "passed",
+  "clean_install_and_no_overwrite": "passed",
+  "archive_integrity_and_contents": "passed",
+  "archive": "dist/yingliufaqian-0.1.1.zip",
+  "sha256": "ea3cea1c40bdf32b18bff5701e4c572601122b0b8ed0225dea87412b5e69e247",
+  "python": "3.14.3",
+  "PyYAML": "6.0.3",
+  "skill_files": {
+    "SKILL.md": "71d4fdffdc8929638dc8da5acd71c7d22cef75de00363abdb0c127822ce33b7f",
+    "agents/openai.yaml": "1bb12d42358363bd5a2d48cfe0c126ff83f0171693fc30891bdc9b8cfc726ea7",
+    "assets/case-template.md": "8e624f5c3fbf774b708aecd75863990b615291c4c2c4f9f45d55e540973531c2",
+    "assets/file-index.csv": "90aa30d54dc1f87a18a738dd25f8d5d9abe5fb999429d1b5345f3bb54fa5bf33",
+    "references/browser-and-slots.md": "7fd0e092a4c0d94413c5b03047fbc214769e271839916f9d7fb3b1d866836fa4",
+    "references/documents.md": "97b39f69ee8f50b30ab9a6f43d76d60696a8f43eeba30f1175c0fc399244aed9",
+    "references/official-sources.md": "086216147c98370217e4f5f238cf039b7f6510a9e1c2f0e548546fecdae3fe59",
+    "references/workflow.md": "b800ff0f087ad933d49adfc5f4c50a01d8c8f49f3c6946edb35d0fe1daa248f0"
+  }
+}

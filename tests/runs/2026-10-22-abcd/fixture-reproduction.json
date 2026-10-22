@@ -1,0 +1,6 @@
+{
+  "fixture_cli_exit_code": 0,
+  "pdf_texts_reproduced": 30,
+  "replica_root": "/tmp/yingliufaqian-reproduction-example/fixtures",
+  "scope": "Synthetic fixtures reproducibility; PDF container timestamps may differ"
+}

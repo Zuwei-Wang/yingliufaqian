@@ -1,0 +1,7 @@
+{
+  "stage": "after main turn21, before print-entry repair",
+  "command": "/Users/example/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/check_simulation_artifacts.py /tmp/yingliufaqian-abcd-materials --stage initial-final --layout merged --transport-source corrections/transport.pdf",
+  "exit_code": 1,
+  "observed_failure": "Merged delivery must not duplicate its component PDFs in the print folder",
+  "scope": "Recorded failure summary; not a complete raw execution log or a CI result"
+}

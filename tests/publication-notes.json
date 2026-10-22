@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "purpose": "Prepare synthetic validation records for a public repository",
+  "redactions": [
+    "Replace the developer home-directory prefix with /Users/example",
+    "Replace machine-specific temporary reproduction directory with /tmp/yingliufaqian-reproduction-example/fixtures"
+  ],
+  "redacted_files": [
+    "tests/runs/2026-10-22-abcd/package-validation.json",
+    "tests/runs/2026-10-22-abcd/artifact-check-before-repair.json",
+    "tests/runs/2026-10-22-abcd/fixture-reproduction.json",
+    "tests/runs/2026-10-22-abcd/report.md",
+    "tests/runs/2026-10-22-abcd/regressions.json",
+    "tests/runs/2026-10-22-abcd/tool-observations.json"
+  ],
+  "preserved": "Simulation dialogue, observed results, exit codes, source hashes and package hashes; no new validation results inferred",
+  "scope": "Records describe synthetic applicant evidence and read-only public website observations. Local paths are environment examples, not portable runtime requirements.",
+  "format_normalization": {
+    "operation": "CSV line endings CRLF to LF; cell values and recorded source hashes unchanged",
+    "files": [
+      "tests/runs/2026-10-21/resume-index.csv",
+      "tests/runs/2026-10-21/baseline-index-turn05.csv"
+    ],
+    "markdown_hard_breaks": "Use equivalent backslash hard breaks instead of two trailing spaces in tests/runs/2026-10-21/conversation.md; dialogue wording unchanged"
+  }
+}

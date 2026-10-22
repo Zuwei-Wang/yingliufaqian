@@ -1,0 +1,9 @@
+{
+  "version": "0.1.2",
+  "structure": "passed",
+  "relative_references": "passed",
+  "archive_contents": "passed",
+  "files": 9,
+  "sha256": "981d22af3385124a1b347454f91a87bf1300d9a0521d55d288097d487c21322a",
+  "behavioral_rerun": false
+}

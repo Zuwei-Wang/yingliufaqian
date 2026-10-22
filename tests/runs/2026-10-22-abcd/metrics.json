@@ -1,0 +1,70 @@
+{
+  "main_turns": 24,
+  "followup_user_replies": 23,
+  "single_letter_followup_replies": 19,
+  "single_letter_percent": 82.6,
+  "single_letter_turns": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24
+  ],
+  "separate_attachment_events": [
+    18,
+    20,
+    21,
+    24
+  ],
+  "assistant_visible_character_count": {
+    "method": "Keep Markdown link label; remove its URL, file citation widgets, whitespace and Markdown formatting symbols. This is a text-size proxy, not rendered UI measurement.",
+    "per_turn": [
+      62,
+      54,
+      46,
+      95,
+      81,
+      151,
+      132,
+      90,
+      156,
+      82,
+      61,
+      85,
+      124,
+      53,
+      90,
+      65,
+      78,
+      107,
+      92,
+      90,
+      136,
+      94,
+      98,
+      122
+    ],
+    "mean": 93.5,
+    "median": 90.0,
+    "max": 156,
+    "over_150_turns": [
+      6,
+      9
+    ]
+  },
+  "scope": "Original 24-turn trace includes discovered defects and repairs; isolated regressions excluded."
+}

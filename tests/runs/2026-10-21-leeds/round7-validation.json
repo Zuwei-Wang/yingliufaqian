@@ -1,0 +1,17 @@
+{
+  "indexed_files": 28,
+  "delta_pack_pages": 4,
+  "keep_old_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "old_pack_removed_from_current_print_dir": true,
+  "school_age_days_at_appointment": 20,
+  "form_receipt_insurance_excluded": true,
+  "hashes_and_page_sources_verified": true
+}

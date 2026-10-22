@@ -1,0 +1,4 @@
+interface:
+  display_name: "英留法签"
+  short_description: "逐步引导英国留学生办理法国短期签证，整理材料并协助官网填表预约"
+  default_prompt: "请用 $yingliufaqian 帮我准备在英国申请法国旅游签证，从了解我的情况开始，一步一步带我完成。"
